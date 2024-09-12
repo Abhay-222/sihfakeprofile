@@ -1,0 +1,51 @@
+body{
+   color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0e2858, #88a8df);
+}
+
+form{
+    width: 60vw;
+}
+
+fieldset {
+    display: flex;
+}
+
+.fieldsetHead{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.divi{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 55%;
+    height: 2em;
+    padding: 0em 1em 0em 1em;
+    margin-right: 4%;
+    margin-bottom: 10px;
+    background-color: #9bb8eb;
+    border: 1px;
+}
+
+#search{
+    width: 12em;
+    height: 3em;
+    color:rgb(9, 16, 22);
+    font-weight: 600;
+}
